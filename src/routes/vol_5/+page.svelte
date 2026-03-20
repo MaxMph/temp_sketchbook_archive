@@ -1,14 +1,21 @@
 
-<div class=" flex">
+<div>
   <a href="./">Home</a>
+  <iframe src="/vol5.pdf"></iframe>
 </div>
 
-<iframe src="/vol5.pdf"></iframe>
-
 <style>
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100svw;
+  }
 
   iframe {
     height: 95svh;
     width: 100%;
   }
+
 </style>
